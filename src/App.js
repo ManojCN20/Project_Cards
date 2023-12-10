@@ -1,6 +1,6 @@
 import "./App.css";
-import ProjectsShowCard from "./Components/Project_Card/ProjectsShowCard";
-import { Proj_Data } from "./Components/Project_Card/Data";
+import ProjectsShowCard from "./Components/Project_Display_Card/ProjectsShowCard";
+import { Proj_Data } from "./Components/Project_Display_Card/Data";
 
 function App(props) {
   return (
