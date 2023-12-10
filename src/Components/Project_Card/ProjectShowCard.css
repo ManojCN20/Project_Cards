@@ -1,0 +1,45 @@
+.project_show_card {
+  width: 90%;
+  margin: 2rem auto;
+  border: 1px solid red;
+  border-radius: 1rem;
+  /* padding: 15px; */
+  box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 0, 0, 0.9);
+  color: #fff;
+
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.project_show_card a {
+  text-decoration: none;
+  color: white;
+}
+
+.project_show_card:hover {
+  filter: brightness(1.2);
+
+  box-shadow: 10px 0 20px red;
+  transform: scale(1.05);
+}
+
+.project_show_card_img {
+  width: 100%;
+}
+
+.project_show_card_body {
+  padding: 1rem;
+}
+
+h1.project_show_card_title {
+  margin: 1rem 0;
+}
+
+.project_show_card_text {
+  margin: 1rem 0 2rem;
+}
+
+.project_show_card_text_muted {
+  text-align: center;
+}

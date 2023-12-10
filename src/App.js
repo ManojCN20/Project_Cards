@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ProjectsShowCard from "./Components/Project_Card/ProjectsShowCard";
+import { Proj_Data } from "./Components/Project_Card/Data";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {Proj_Data.map((Proj_Data, index) => (
+        <ProjectsShowCard key={index} Proj_Data={Proj_Data} />
+      ))}
     </div>
   );
 }
